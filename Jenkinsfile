@@ -9,7 +9,7 @@ pipeline {
                 sh '''
                 #!/bin/bash
                 ls -lrt
-                sleep 10
+                sleep 11
                 echo 'This is Linux command'
 
                 '''
