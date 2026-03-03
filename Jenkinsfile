@@ -8,7 +8,7 @@ pipeline {
 
                 sh '''
                 #!/bin/bash
-                ls lrt
+                ls -lrt
                 sleep 10
                 echo 'This is Linux command'
 
